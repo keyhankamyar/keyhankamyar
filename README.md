@@ -104,8 +104,8 @@ This chart shows how my projects build upon and connect with each other, forming
 graph TD
     subgraph CoreLib["🔧 Core Libraries"]
         A[Proxy Rotator]:::shipped
-        B[Duka Downloader]:::polishing
-        C[SAM2 Realtime]:::planned
+        B[Tick Vault]:::shipped
+        C[SAM2 Realtime]:::polishing
         D[Tunable Config]:::planned
     end
 
@@ -174,28 +174,28 @@ graph TD
 <td align="center">1</td>
 <td><strong>Proxy Rotator</strong></td>
 <td>A production-ready library that seamlessly integrates proxy rotation into <code>httpx</code> clients (sync/async). Built for resilience and simplicity in web scraping and API automation workflows.</td>
-<td align="center">🚀<br><sub>Finishing Touches</sub></td>
+<td align="center">🚀<br><sub>Shipped</sub></td>
 </tr>
 
 <tr>
 <td align="center">2</td>
-<td><strong>Duka Downloader</strong></td>
+<td><strong>Tick Vault</strong></td>
 <td>High-fidelity financial tick data scraper for Dukascopy Bank (Swiss). Extracts raw, sub-second precision market data for quantitative analysis and backtesting.</td>
-<td align="center">⏳<br><sub>Up Next</sub></td>
+<td align="center">🚀<br><sub>Shipped</sub></td>
 </tr>
 
 <tr>
 <td align="center">3</td>
 <td><strong>SAM2 Realtime</strong></td>
 <td>Text-prompted, real-time video segmentation pipeline optimized for live camera feeds, video streams, and recordings. Achieves >40 FPS through custom kernel optimizations.</td>
-<td align="center">📝<br><sub>Planned</sub></td>
+<td align="center">🔨<br><sub>Finishing Touches</sub></td>
 </tr>
 
 <tr>
 <td align="center">4</td>
 <td><strong>Tunable Config</strong></td>
 <td>Where Optuna meets Pydantic. A research-grade library that unifies hyperparameter optimization, neural architecture search, and feature selection with type-safe, declarative configs. Distilled from years of research into clean, reusable patterns.</td>
-<td align="center">📝<br><sub>Planned</sub></td>
+<td align="center">⏳<br><sub>Up Next</sub></td>
 </tr>
 
 <tr>
@@ -230,7 +230,7 @@ graph TD
 <td align="center">9</td>
 <td><strong>Clean-TS</strong></td>
 <td>A modular, Pythonic reimplementation of canonical time-series architectures. Traditional TS codebases are archaic and opaque—this makes them readable, extensible, and reproducible. Requires ~1 month of polish before release.</td>
-<td align="center">📝<br><sub>Planned (~1mo)</sub></td>
+<td align="center">📝<br><sub>Planned</sub></td>
 </tr>
 
 </tbody>
