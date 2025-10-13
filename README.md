@@ -172,14 +172,14 @@ graph TD
 
 <tr>
 <td align="center">1</td>
-<td><strong>Proxy Rotator</strong></td>
+<td><strong><a href="https://github.com/keyhankamyar/ProxyRotator">Proxy Rotator</a></strong></td>
 <td>A production-ready library that seamlessly integrates proxy rotation into <code>httpx</code> clients (sync/async). Built for resilience and simplicity in web scraping and API automation workflows.</td>
 <td align="center">🚀<br><sub>Shipped</sub></td>
 </tr>
 
 <tr>
 <td align="center">2</td>
-<td><strong>Tick Vault</strong></td>
+<td><strong><a href="https://github.com/keyhankamyar/TickVault">Tick Vault</a></strong></td>
 <td>High-fidelity financial tick data scraper for Dukascopy Bank (Swiss). Extracts raw, sub-second precision market data for quantitative analysis and backtesting.</td>
 <td align="center">🚀<br><sub>Shipped</sub></td>
 </tr>
