@@ -242,29 +242,6 @@ graph TD
 
 <div align="center">
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=footer&text=Building%20the%20Future,%20One%20Gradient%20at%20a%20Time&fontSize=28&fontColor=fff&animation=twinkling&fontAlignY=75" width="100%"/>
-
-<br>
-
-<table border="0" align="center">
-<tr>
-<td align="center" width="50%">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Turning+theory+into+production+code;Optimizing+what+others+call+impossible;Where+research+meets+reality" alt="Typing SVG" />
-</td>
-<td align="center" width="50%">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3500&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=10-12+hours%2Fday%2C+no+weekends;It's+not+work%E2%80%94it's+the+game;Theory+is+the+map%3B+code+is+the+territory" alt="Typing SVG" />
-</td>
-</tr>
-</table>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
-
-<br><br>
-
 <a href="https://www.linkedin.com/in/keyhan-kamyar/">
 <img src="https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" height="35"/>
 </a>
