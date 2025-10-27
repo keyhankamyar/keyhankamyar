@@ -119,8 +119,9 @@ graph TD
         H[Clean TS]:::planned
     end
 
-    C -.->|Config & Optimization| D
-    C -.->|Config & Optimization| H
+    C -.->|Config & HPO| D
+    C -.->|Config & HPO| H
+    C -.->|Experiment Design| F
 
     D -.->|Training & Eval| H
     D -.->|Training & Eval| F
