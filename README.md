@@ -105,31 +105,30 @@ graph TD
     subgraph CoreLib["🔧 Core Libraries"]
         A[Proxy Rotator]:::shipped
         B[Tick Vault]:::shipped
-        C[SAM2 Realtime]:::polishing
-        D[Tunable Config]:::planned
+        C[SpaX]:::shipped
     end
 
     subgraph Frameworks["⚡ Frameworks & Guides"]
-        E[Lightning HPO Playbooks]:::planned
-        F[LLM Benchmarking]:::planned
+        D[Lightning HPO Playbooks]:::polishing
+        E[LLM Benchmarking]:::planned
     end
 
     subgraph Applications["🚀 Application & Research"]
-        G[Financial Env]:::planned
-        H[CV/CL Agent]:::planned
-        I[Clean TS]:::planned
+        F[Financial Env]:::planned
+        G[CV/CL Agent]:::planned
+        H[Clean TS]:::planned
     end
 
-    D -.->|Config & Optimization| E
-    D -.->|Config & Optimization| I
+    C -.->|Config & Optimization| D
+    C -.->|Config & Optimization| H
 
-    E -.->|Training & Eval| I
-    E -.->|Training & Eval| G
+    D -.->|Training & Eval| H
+    D -.->|Training & Eval| F
 
-    F -.->|Model Selection| H
+    E -.->|Model Selection| G
 
-    A ==>|Resilience| H
-    B ==>|Data Source| G
+    A ==>|Resilience| G
+    B ==>|Data Source| F
     
     classDef shipped fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
     classDef polishing fill:#FFC107,stroke:#F57F17,stroke-width:3px,color:#000,font-weight:bold
@@ -186,48 +185,41 @@ graph TD
 
 <tr>
 <td align="center">3</td>
-<td><strong>SAM2 Realtime</strong></td>
-<td>Text-prompted, real-time video segmentation pipeline optimized for live camera feeds, video streams, and recordings. Achieves >40 FPS through custom kernel optimizations.</td>
-<td align="center">🔨<br><sub>Finishing Touches</sub></td>
+<td><strong><a href="https://github.com/keyhankamyar/SpaX">SpaX</a></strong></td>
+<td>Pythonic, type-safe search space configuration for HPO, NAS, and ML experiment tracking. Declarative configs with conditional parameters, automatic validation, and zero boilerplate. Pydantic-based with native Optuna integration.</td>
+<td align="center">🚀<br><sub>Shipped</sub></td>
 </tr>
 
 <tr>
 <td align="center">4</td>
-<td><strong>Tunable Config</strong></td>
-<td>Where Optuna meets Pydantic. A research-grade library that unifies hyperparameter optimization, neural architecture search, and feature selection with type-safe, declarative configs. Distilled from years of research into clean, reusable patterns.</td>
-<td align="center">⏳<br><sub>Up Next</sub></td>
+<td><strong>Lightning HPO Playbooks</strong></td>
+<td>Industry-standard examples and guides for model training, optimization, and research using PyTorch Lightning. Covers SOTA practices for NAS, HPO, distributed training, and production-ready ML pipelines.</td>
+<td align="center">🔨<br><sub>Finishing Touches</sub></td>
 </tr>
 
 <tr>
 <td align="center">5</td>
-<td><strong>Lightning HPO Playbooks</strong></td>
-<td>Industry-standard examples and guides for model training, optimization, and research using PyTorch Lightning. Covers SOTA practices for NAS, HPO, distributed training, and production-ready ML pipelines.</td>
-<td align="center">📝<br><sub>Planned</sub></td>
+<td><strong>CV+CL Agent</strong></td>
+<td>An agentic framework that auto-generates tailored CVs and cover letters optimized for specific job postings. Combines LLM orchestration with structured outputs for efficient application workflows.</td>
+<td align="center">⏳<br><sub>Up Next</sub></td>
 </tr>
 
 <tr>
 <td align="center">6</td>
-<td><strong>CV+CL Agent</strong></td>
-<td>An agentic framework that auto-generates tailored CVs and cover letters optimized for specific job postings. Combines LLM orchestration with structured outputs for efficient application workflows.</td>
-<td align="center">📝<br><sub>Planned</sub></td>
-</tr>
-
-<tr>
-<td align="center">7</td>
 <td><strong>Financial Env</strong></td>
 <td>A blazingly fast, parallelized Gymnasium environment for algorithmic trading. Includes a placeholder reward function—the real one stays private (years of research aren't free). Built for large-scale RL training; production readiness TBD pending capital for full-scale experiments.</td>
 <td align="center">📝<br><sub>Planned</sub></td>
 </tr>
 
 <tr>
-<td align="center">8</td>
+<td align="center">7</td>
 <td><strong>LLM Benchmarking</strong></td>
 <td>A practical guide for building use-case-specific LLM evaluation pipelines. Generic benchmarks mislead; this teaches how to design reliable, domain-aware benchmarks that actually reflect real-world performance.</td>
 <td align="center">📝<br><sub>Planned</sub></td>
 </tr>
 
 <tr>
-<td align="center">9</td>
+<td align="center">8</td>
 <td><strong>Clean-TS</strong></td>
 <td>A modular, Pythonic reimplementation of canonical time-series architectures. Traditional TS codebases are archaic and opaque—this makes them readable, extensible, and reproducible. Requires ~1 month of polish before release.</td>
 <td align="center">📝<br><sub>Planned</sub></td>
